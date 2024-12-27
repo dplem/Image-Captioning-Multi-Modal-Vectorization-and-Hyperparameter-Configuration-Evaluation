@@ -1,0 +1,452 @@
+[
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 2.382847225171733e-233,
+      "avg_rouge": 0.002466177335008979,
+      "avg_meteor": 0.009002266656863647
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 4.1208799174827796e-232,
+      "avg_rouge": 0.03485933318734169,
+      "avg_meteor": 0.023667104222835588
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 7.49314925294736e-233,
+      "avg_rouge": 0.006314217112958431,
+      "avg_meteor": 0.008253809163659852
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "AdamW",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 3.368228101808698e-232,
+      "avg_rouge": 0.020803455263376236,
+      "avg_meteor": 0.01854558745355784
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "AdamW",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 4.17275271631427e-232,
+      "avg_rouge": 0.0340215228497982,
+      "avg_meteor": 0.026941868252021144
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 3.10084464783667e-232,
+      "avg_rouge": 0.017937956377863884,
+      "avg_meteor": 0.011498421670962973
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 7.88235649575547e-232,
+      "avg_rouge": 0.07467184215784073,
+      "avg_meteor": 0.054576862047559876
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 7.882356495755469e-232,
+      "avg_rouge": 0.07467182725667953,
+      "avg_meteor": 0.05457686204755988
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 7.882356495755469e-232,
+      "avg_rouge": 0.07467183470726013,
+      "avg_meteor": 0.05457686204755988
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "SGD",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 2.351692195935005e-233,
+      "avg_rouge": 0.0020422604866325855,
+      "avg_meteor": 0.003913021941487974
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "SGD",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 2.283600423522862e-233,
+      "avg_rouge": 0.0,
+      "avg_meteor": 0.004068437367490426
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "SGD",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 2.4709225630954024e-233,
+      "avg_rouge": 0.001433691824786365,
+      "avg_meteor": 0.00514689448696538
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 1.6145710793042391e-155,
+      "avg_rouge": 0.1573769599199295,
+      "avg_meteor": 0.09175084852033646
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 7.475177586371939e-232,
+      "avg_rouge": 0.15719756484031677,
+      "avg_meteor": 0.04654975524212301
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 1.3550728361106592e-233,
+      "avg_rouge": 0.14480333030223846,
+      "avg_meteor": 0.04326876176734646
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 3.88010511327916e-232,
+      "avg_rouge": 0.02859664149582386,
+      "avg_meteor": 0.022153957933886408
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 2.490612745686282e-233,
+      "avg_rouge": 0.003298538038507104,
+      "avg_meteor": 0.004328775406619887
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adam",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 2.6479550849026806e-232,
+      "avg_rouge": 0.01580379158258438,
+      "avg_meteor": 0.012945192484257047
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "AdamW",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 7.362325386037132e-233,
+      "avg_rouge": 0.005067674908787012,
+      "avg_meteor": 0.005853847337154184
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "AdamW",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 4.165212927414086e-232,
+      "avg_rouge": 0.02750018611550331,
+      "avg_meteor": 0.018504780043833872
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 3.6261610955010306e-232,
+      "avg_rouge": 0.02632243186235428,
+      "avg_meteor": 0.01933908146987504
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 7.88235649575547e-232,
+      "avg_rouge": 0.07467184215784073,
+      "avg_meteor": 0.05457686204755988
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 7.882356495755469e-232,
+      "avg_rouge": 0.07467184215784073,
+      "avg_meteor": 0.05457686204755987
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 7.882356495755469e-232,
+      "avg_rouge": 0.07467183470726013,
+      "avg_meteor": 0.05457686204755988
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "SGD",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 2.399225145817547e-233,
+      "avg_rouge": 0.0025758305564522743,
+      "avg_meteor": 0.0061979376832469015
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "SGD",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 0.0,
+      "avg_rouge": 0.0,
+      "avg_meteor": 0.006792737333831215
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "SGD",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 4.799029080674356e-233,
+      "avg_rouge": 0.0027167696971446276,
+      "avg_meteor": 0.0076755971119509304
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 9.264157669267128e-232,
+      "avg_rouge": 0.1161111518740654,
+      "avg_meteor": 0.08469599726018888
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 3.8900997206971716e-156,
+      "avg_rouge": 0.16145341098308563,
+      "avg_meteor": 0.05162867269128989
+    }
+  },
+  {
+    "criterion": "CrossEntropyLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 7.346782953747691e-232,
+      "avg_rouge": 0.0721430778503418,
+      "avg_meteor": 0.052671555128417355
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "Adam",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 7.301589822284299e-233,
+      "avg_rouge": 0.004497458692640066,
+      "avg_meteor": 0.0034914054684587257
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "Adam",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 3.1380365226171234e-232,
+      "avg_rouge": 0.016821060329675674,
+      "avg_meteor": 0.01443545027825375
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "Adam",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 9.798649949126586e-233,
+      "avg_rouge": 0.004702351056039333,
+      "avg_meteor": 0.006128039439732678
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "AdamW",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 1.9308150788047766e-232,
+      "avg_rouge": 0.012037997134029865,
+      "avg_meteor": 0.011074160136412867
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "AdamW",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 3.3191150347062085e-232,
+      "avg_rouge": 0.02245940826833248,
+      "avg_meteor": 0.02064864589257378
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 4.142312851751179e-232,
+      "avg_rouge": 0.03676346689462662,
+      "avg_meteor": 0.02384677898376124
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 7.882356495755469e-232,
+      "avg_rouge": 0.07467182725667953,
+      "avg_meteor": 0.05457686204755989
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 7.88235649575547e-232,
+      "avg_rouge": 0.07467183470726013,
+      "avg_meteor": 0.05457686204755989
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "RMSprop",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 7.882356495755469e-232,
+      "avg_rouge": 0.07467182725667953,
+      "avg_meteor": 0.05457686204755989
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "SGD",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 0.0,
+      "avg_rouge": 0.0,
+      "avg_meteor": 0.004391995605686451
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "SGD",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 0.0,
+      "avg_rouge": 0.0,
+      "avg_meteor": 0.006148274354567008
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "SGD",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 0.0,
+      "avg_rouge": 0.0,
+      "avg_meteor": 0.002686394206848818
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "StepLR",
+    "performance": {
+      "avg_bleu": 6.164811214148042e-156,
+      "avg_rouge": 0.08198001980781555,
+      "avg_meteor": 0.059670370745758435
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "ExponentialLR",
+    "performance": {
+      "avg_bleu": 7.88235649575547e-232,
+      "avg_rouge": 0.07467183470726013,
+      "avg_meteor": 0.05457686204755989
+    }
+  },
+  {
+    "criterion": "NLLLoss",
+    "optimizer": "Adagrad",
+    "scheduler": "CosineAnnealingLR",
+    "performance": {
+      "avg_bleu": 7.882356495755469e-232,
+      "avg_rouge": 0.07467181980609894,
+      "avg_meteor": 0.05457686204755988
+    }
+  }
+]
