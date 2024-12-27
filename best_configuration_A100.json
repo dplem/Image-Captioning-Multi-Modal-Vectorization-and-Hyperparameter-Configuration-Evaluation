@@ -1,0 +1,10 @@
+{
+  "criterion": "CrossEntropyLoss",
+  "optimizer": "Adagrad",
+  "scheduler": "ExponentialLR",
+  "performance": {
+    "avg_bleu": 1.5413388630006598e-156,
+    "avg_rouge": 0.13878083229064941,
+    "avg_meteor": 0.0936357892799851
+  }
+}
